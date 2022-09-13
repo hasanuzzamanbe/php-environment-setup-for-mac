@@ -1,8 +1,9 @@
 # php-environment-setup-for-mac
 PHP environment setup sometime ruins our day. So here is the easiest way to setup Laravel valet on your Mac machine to run PHP or WordPress.
-You can follow the guideline bellow or you may read the web version from [WPMiners.com](https://www.wpminers.com)
+You can follow the guideline bellow or
+> you may read the web version from
+[https://wpminers.com/how-to-install-laravel-valet-on-mac](https://www.wpminers.com/how-to-install-laravel-valet-on-mac)
 
-<i>[Setup Laravel Valet On Mac](https://www.wpminers.com)</i>
 
 # SETTING UP A PHP / WORDPRESS DEVELOPMENT ENVIRONMENT TAKES TEN MINUTES.
 
@@ -114,9 +115,9 @@ After that, you are ready to install valet on your machine.
 ## Exception:
 <hr>
 
-    Sometimes you may face this issue Laravel “valet install” not found”
+    Sometimes you may face this issue Laravel “valet install” not found!”
 
-    you need to make sure that <b>~/.composer/vendor/bin</b> directory is in your system’s PATH; you can check this by running `echo $PATH`  To solve this issue, run this command below.
+    you need to make sure that ~/.composer/vendor/bin directory is in your system’s PATH; you can check this by running `echo $PATH`  To solve this issue, run this command below.
 
 > `export PATH=$PATH:~/.composer/vendor/bin`
 
@@ -161,3 +162,5 @@ Even if You can make this test domain secure by a single command, open your proj
 
 Making projects secure under SSL you can run like this https://Your-project-name.test
 Your server configuration is complete. You can run your PHP , Laravel application using this server. Also, you can run your WordPress locally. If you face any problems, please leave a remark below.
+
+If you face any issue you may comment on the [Blog](https://wpminers.com/how-to-install-laravel-valet-on-mac) or create an issue.
